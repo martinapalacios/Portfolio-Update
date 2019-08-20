@@ -6,7 +6,8 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background-image: url('http://imgur.com/OssbQN3.jpg');
+  background-image: url(../images/cohstreets.jpg);
+  /* background-image: url('http://imgur.com/OssbQN3.jpg'); */
 }
 
 * {
@@ -27,11 +28,6 @@ body {
   margin: 0 auto -105px;
 }
 
-/* footer,
-.push {
-  height: 105px;
-} */
-
 /* Hover Styling */
 #logo:hover,
 input[type=submit]:hover {
@@ -50,7 +46,6 @@ nav a:hover {
 /* Container */
 .container {
   width: 100%;
- /* max-width: 960px; */
   margin: 0 auto;
   clear: both;
 }
@@ -95,7 +90,7 @@ h3 {
   overflow: auto;
   color: #ffffff;
   background: #ffffff;
-  border-bottom: 2px solid #cccccc;
+  border-bottom: 8px solid #cccccc;
 }
 
 #logo {
@@ -111,26 +106,6 @@ h3 {
   text-decoration: none;
 }
 
-/* My Links 
-.links {
-  float: right;
-  margin-top: 25px;
-}
-    
-.links a {
-  display: inline-block;
-  padding-left: 15px;
-  margin-left: 15px;
-  line-height: 18px;
-  color: #999;
-  text-decoration: none;
-  border-left: 1px solid #efefef;
-}
-
-.links a:first-child {
-  border-left: 0 none;
-} */
-
 /* Footer */
 footer {
   padding: 10px;
@@ -140,8 +115,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #343a40!important;
-  border-top: 8px solid #4aaaa5;
-  /*height: 50px; */
+  border-top: 8px solid #ffffff;
 }
 
 h2, h3 {
